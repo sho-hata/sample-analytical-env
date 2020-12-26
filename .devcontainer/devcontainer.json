@@ -1,0 +1,16 @@
+{
+	"name": "Jupyter Project",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	"service": "notebook",
+	"workspaceFolder": "/workspace",
+	"settings": {
+		"terminal.integrated.shell.linux": null
+	},
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+	]
+}
